@@ -1,3 +1,2 @@
 # Mi portafolio Diego Lecanda
-
-https://github.com/Diegolec18/Miportafolio/actions/runs/6752912763
+https://diegolec18.github.io/Miportafolio/
