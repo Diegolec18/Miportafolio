@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+
+
+
+
+#chibi {
+    font-family: 'Bungee', cursive;
+
+        background-color: #ffc0cb; 
+ 
+  
+}
+
+#FriendsNight{
+    background-color: #F94144; 
+}
+
+#knight{
+    background-color: #41bff9; 
+}
+
+#chibi {
+    font-family: 'Bungee', cursive;
+
+        background-color: #ffc0cb; 
+ 
+  
+}
+
+#textochibi{
+    background-color: #ffc0cb; 
+}
+
+section.container {
+    margin-top: 50px;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+nav.navbar {
+    border-bottom: 2px solid #eee;
+}
+
+
+header {
+    background: #4169E1;
+    color: #fff;
+    padding: 60px 0;
+}
+
+
+button.btn {
+    background: #0069d9;
+    color: #fff;
+}
+
+button.btn:hover {
+    background: #0056b3;
+    color: #fff;
+}
+
+
+footer {
+    background: #4169E1;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+#about {
+    text-align: justify;
+}
+
+
+.social-btn-whatsapp {
+    display: inline-block;
+    background: #25D366;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.social-btn-facebook {
+    display: inline-block;
+    background: #3b5998;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.social-btn-twitter {
+    display: inline-block;
+    background: #1DA1F2;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.social-btn-reddit {
+    display: inline-block;
+    background: #FF5700;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.social-btn-github {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.social-btn i {
+    margin-right: 8px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin:auto;
+    border-radius:10px;
+}
+
+#juegoCarousel{
+    margin: auto; 
+    max-width: 50%; 
+    margin-top: 20px; 
+}
+
+#juego2Carousel{
+    margin: auto; 
+    max-width: 50%; 
+    margin-top: 20px; 
+}

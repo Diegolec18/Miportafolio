@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Diego Lecanda</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="#">Mi portafolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#header">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Proyectos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<header class="text-center  text-white py-5" id="header">
+    <h1>Diego Lecanda</h1>
+    <p>Game Developer</p>
+    <img src="./imgs/ccc.png" alt="Logo"  width="200">
+</header>
+
+
+<section class="container my-5" id="about">
+    <div class="row">
+        
+        <div class="col-md-4 text-center">
+            <img src="./imgs/yop.JPG" alt="Diego Lecanda" class="img-fluid rounded-circle" width="200">
+        </div>
+        
+        <div class="col-md-8">
+            <h2>Sobre mí</h2>
+            <p>
+                ¡Hola! Mi nombre es <strong>Diego Lecanda</strong>. Desde que descubrí el vasto mundo de los videojuegos, supe que quería formar parte de él. Mi pasión por crear universos, historias y experiencias interactivas me llevó al desarrollo de juegos. Actualmente, estoy adquiriendo habilidades y conocimientos avanzados en la <strong>Universidad Amerike</strong>, donde estudio Desarrollo de Software Interactivo y Videojuegos.
+            </p>
+            <p>
+                A lo largo de mi formación, he tenido la oportunidad de familiarizarme con diversos lenguajes de programación y tecnologías. Entre los lenguajes que manejo se encuentran <strong>C#</strong>, <strong>Javascript</strong>, <strong>C++</strong> y <strong>HTML</strong>. Estoy comprometido con el aprendizaje continuo y siempre busco la oportunidad de trabajar en proyectos innovadores y desafiantes.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section class="container mt-5" id="projects">
+    <h2 class="text-center">Mis Proyectos</h2>
+    <div class="row">
+        
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <a href="juego1.html">
+                    <img src="./imgs/AtDnIc.png" class="card-img-top" alt="Proyecto 1">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">ChibiFrenzy</h5>
+                    <p class="card-text">ChibiFrenzy" es un adictivo juego de memoria y destreza diseñado para amantes del anime.</p>
+                    <a href="juego1.html" class="btn btn-primary">Más detalles</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <a href="juego2.html">
+                    <img src="./imgs/friends.png" class="card-img-top" alt="Proyecto 2">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">FriendsNight</h5>
+                    <p class="card-text">Juego de fiestas basado en dinamicas de peliculas.</p>
+                    <a href="juego2.html" class="btn btn-primary">Más detalles</a>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <a href="juego3.html">
+                    <img src="./imgs/knights.png" class="card-img-top" alt="Proyecto 3">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Knights Crusade</h5>
+                    <p class="card-text">Un caballero va en busca de su gato perdido,</p>
+                    <a href="juego3.html" class="btn btn-primary">Más detalles</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="container my-5" id="contact">
+    <h2 class="text-center">Contacto</h2>
+    <div class="row">
+        
+        <div class="col-md-6">
+            <form action="https://formspree.io/f/maygkylb" method="POST">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+        
+        <div class="col-md-6">
+            <h4><i class="fab fa-whatsapp"></i> WhatsApp:</h4>
+            <a href="https://wa.me/5520658177" target="_blank" class="social-btn social-btn-whatsapp">Enviar un mensaje por WhatsApp</a>
+            <br>
+            <h4>Redes Sociales:</h4>
+            
+            <a href="https://www.facebook.com/Diego Lecanda" target="_blank" class="social-btn social-btn-facebook"><i class="fab fa-facebook"></i> Facebook</a> 
+            <br>
+            <a href="https://www.twitter.com/diegolecanda" target="_blank" class="social-btn social-btn-twitter"><i class="fab fa-twitter"></i>Twitter</a> 
+            <br>
+            
+            <a href="https://www.reddit.com/Boingdemanzanaa" target="_blank" class="social-btn social-btn-reddit"> <i class="fab fa-reddit-alien"></i>Reddit</a> 
+            <br>
+            <a href="https://www.Github.com/Diegolec18" target="_blank" class="social-btn social-btn-github"> <i class="fab fa-github"></i>Github</a> 
+        </div>
+        
+        
+    </div>
+</section>
+
+
+<footer class="text-center bg-dark text-white py-3">
+    <p>Contacto: dlecanda18@icloud.com</p>
+    <p>Sígueme en: <a href="https://www.twitter.com/diegolecanda" target="_blank">Twitter</a>  - <a href="https://www.instagram.com/dlecanda" target="_blank">Instagram </a></p> 
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>
